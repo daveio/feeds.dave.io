@@ -12,6 +12,7 @@ const openapi = fromHono(app, {
 
 // Register OpenAPI endpoints
 openapi.get("/ping", Ping);
+openapi.get("/feeds/ping", Ping);
 
 // Export the Hono app
 export default app;
