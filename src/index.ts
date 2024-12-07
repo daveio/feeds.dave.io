@@ -8,6 +8,8 @@ const app = new Hono();
 // Setup OpenAPI registry
 const openapi = fromHono(app, {
   docs_url: "/feeds/docs",
+  redoc_url: "/feeds/redocs",
+  openapi_url: "/feeds/openapi.json",
 });
 
 // Register OpenAPI endpoints
