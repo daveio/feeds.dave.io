@@ -12,6 +12,14 @@ enabled = true
 [placement]
 mode = "smart"
 
+[[routes]]
+pattern = "feeds.dave.io"
+custom_domain = true
+
+[[routes]]
+pattern = "dave.io/feeds/*"
+zone_id = "cce768dd1ffadb4f24ae8fce0f7e979a"
+
 # Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
 # Docs:
 # - https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
