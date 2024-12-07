@@ -1,23 +1,40 @@
 {
-  "name": "feeds.dave.io",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "start": "wrangler dev",
-    "cf-typegen": "wrangler types"
-  },
+  "author": "Dave Williams <dave@dave.io>",
   "dependencies": {
+    "@atproto/api": "^0.13.19",
+    "@atproto/identity": "^0.4.3",
+    "@atproto/lexicon": "^0.4.3",
+    "@atproto/repo": "^0.5.5",
+    "@atproto/syntax": "^0.3.1",
     "chanfana": "^2.4.2",
+    "dotenv": "^16.4.7",
     "hono": "^4.6.13",
+    "multiformats": "^13.3.1",
     "zod": "^3.23.8"
   },
+  "description": "bluesky atproto feed generator",
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241205.0",
     "@types/node": "22.10.1",
     "@types/service-worker-mock": "^2.0.4",
     "wrangler": "^3.93.0"
   },
-  "packageManager": "bun@1.1.38"
+  "engines": {
+    "node": ">= 18",
+    "bun": "~1.1.38"
+  },
+  "license": "MIT",
+  "name": "feeds.dave.io",
+  "packageManager": "bun@1.1.38",
+  "private": true,
+  "repository": "https://github.com/daveio/feeds.dave.io.git",
+  "scripts": {
+    "cf-typegen": "wrangler types",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev"
+  },
+  "trustedDependencies": [],
+  "type": "module",
+  "version": "0.1.0"
 }
