@@ -22,6 +22,6 @@ export class Ping extends OpenAPIRoute {
 	};
 
 	async handle(c: Context) {
-		return c.json({ service: "api", response: "pong" });
+		return c.json({ service: "feeds", response: "pong" });
 	}
 }
