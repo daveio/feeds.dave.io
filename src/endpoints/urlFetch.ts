@@ -31,17 +31,11 @@ export class UrlFetch extends OpenAPIRoute {
 	};
 
 	async handle(c) {
-		const data = await this.getValidatedData<typeof this.schema>();
-		const { slug } = data.params;
-		const val = await c.env.GDIO_REDIRECTS.get(slug);
-		if (val === null) {
-			return new Response(null, { status: 404 });
-		}
 		return {
 			success: true,
 			redirect: {
-				slug: slug,
-				url: val,
+				slug: "slug",
+				url: "url",
 			},
 		};
 	}
