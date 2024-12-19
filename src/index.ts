@@ -1,8 +1,8 @@
 import { fromHono } from "chanfana";
 import { Hono } from "hono";
 import { Ping } from "endpoints/ping";
-import { UrlFetch } from "endpoints/urlFetch";
 
+/* trunk-ignore(biome/lint/complexity/noBannedTypes) */
 type Bindings = {};
 
 // Start a Hono app
