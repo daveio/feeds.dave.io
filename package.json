@@ -24,7 +24,7 @@
 		"@types/node": "^22.10.2",
 		"@types/service-worker-mock": "^2.0.4",
 		"stylelint-config-standard": "^36.0.1",
-		"wrangler": "^3.96.0"
+		"wrangler": "^3.98.0"
 	},
 	"packageManager": "pnpm@9.15.0",
 	"engines": {
