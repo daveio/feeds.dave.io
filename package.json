@@ -2,6 +2,11 @@
 	"name": "feeds.dave.io",
 	"version": "0.1.0",
 	"private": true,
+	"description": "Personal feeds for Bsky",
+	"repository": "https://github.com/daveio/feeds.dave.io.git",
+	"license": "MIT",
+	"author": "Dave Williams <dave@dave.io>",
+	"type": "module",
 	"scripts": {
 		"cf-typegen": "wrangler types",
 		"deploy": "wrangler deploy",
@@ -20,5 +25,10 @@
 		"stylelint-config-standard": "^36.0.1",
 		"wrangler": "^3.93.0"
 	},
-	"packageManager": "bun@1.1.38"
+	"packageManager": "bun@1.1.38",
+	"engines": {
+		"bun": "~1.1.40",
+		"node": "~20.5.1"
+	},
+	"trustedDependencies": []
 }

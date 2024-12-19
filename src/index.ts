@@ -1,23 +1,27 @@
 import { fromHono } from "chanfana";
 import { Hono } from "hono";
-import { TaskCreate } from "./endpoints/taskCreate";
-import { TaskDelete } from "./endpoints/taskDelete";
-import { TaskFetch } from "./endpoints/taskFetch";
-import { TaskList } from "./endpoints/taskList";
+import { Ping } from "endpoints/ping";
+import { UrlFetch } from "./endpoints/urlFetch";
+
+type Bindings = {
+	GDIO_REDIRECTS: KVNamespace;
+};
 
 // Start a Hono app
-const app = new Hono();
+const app = new Hono<{ Bindings: Bindings }>();
 
 // Setup OpenAPI registry
 const openapi = fromHono(app, {
-	docs_url: "/",
+	docs_url: "/api/docs",
+	redoc_url: "/api/redocs",
+	openapi_url: "/api/openapi.json",
 });
 
 // Register OpenAPI endpoints
-openapi.get("/api/tasks", TaskList);
-openapi.post("/api/tasks", TaskCreate);
-openapi.get("/api/tasks/:taskSlug", TaskFetch);
-openapi.delete("/api/tasks/:taskSlug", TaskDelete);
+openapi.get("/ping", Ping);
+openapi.get("/api/ping", Ping);
+openapi.get("/url/:slug", UrlFetch);
+openapi.get("/api/url/:slug", UrlFetch);
 
 // Export the Hono app
 export default app;
