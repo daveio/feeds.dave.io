@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@atproto/api':
-        specifier: 0.13.24
-        version: 0.13.24
+        specifier: 0.13.25
+        version: 0.13.25
       chanfana:
         specifier: ^2.5.2
         version: 2.5.2
@@ -44,8 +44,8 @@ packages:
     peerDependencies:
       zod: ^3.20.2
 
-  '@atproto/api@0.13.24':
-    resolution: {integrity: sha512-q9GHjaypnEyeag4plsWzP2eWaUfJWy9PHviBsJu5GauwMrGSU/4ijIqWwbFYzyXeWg85ErQxx6FqIne7HDbaVQ==}
+  '@atproto/api@0.13.25':
+    resolution: {integrity: sha512-5tz2NvYO7W9+0PV7x4k4KIAIazQI6Km+q4/+O6VUoNSqHsF3ry9/9mjcZKBoJLdmcVtZdcKSlPUTtxthan6iKw==}
 
   '@atproto/common-web@0.3.1':
     resolution: {integrity: sha512-N7wiTnus5vAr+lT//0y8m/FaHHLJ9LpGuEwkwDAeV3LCiPif4m/FS8x/QOYrx1PdZQwKso95RAPzCGWQBH5j6Q==}
@@ -944,7 +944,7 @@ snapshots:
       openapi3-ts: 4.4.0
       zod: 3.24.1
 
-  '@atproto/api@0.13.24':
+  '@atproto/api@0.13.25':
     dependencies:
       '@atproto/common-web': 0.3.1
       '@atproto/lexicon': 0.4.4
