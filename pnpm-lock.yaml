@@ -19,7 +19,7 @@ importers:
         version: 4.7.4
       zod:
         specifier: ^3.24.1
-        version: 3.24.1
+        version: 3.24.2
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20241230.0
@@ -1029,15 +1029,15 @@ packages:
   zod@3.22.3:
     resolution: {integrity: sha512-EjIevzuJRiRPbVH4mGc8nApb/lVLKVpmUhAaR5R5doKGfAnGJ6Gr3CViAVjP+4FWSxCsybeWQdcgCtbX+7oZug==}
 
-  zod@3.24.1:
-    resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A==}
+  zod@3.24.2:
+    resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
 
 snapshots:
 
-  '@asteasolutions/zod-to-openapi@7.3.0(zod@3.24.1)':
+  '@asteasolutions/zod-to-openapi@7.3.0(zod@3.24.2)':
     dependencies:
       openapi3-ts: 4.4.0
-      zod: 3.24.1
+      zod: 3.24.2
 
   '@atproto/api@0.14.7':
     dependencies:
@@ -1048,14 +1048,14 @@ snapshots:
       await-lock: 2.2.2
       multiformats: 9.9.0
       tlds: 1.255.0
-      zod: 3.24.1
+      zod: 3.24.2
 
   '@atproto/common-web@0.4.0':
     dependencies:
       graphemer: 1.4.0
       multiformats: 9.9.0
       uint8arrays: 3.0.0
-      zod: 3.24.1
+      zod: 3.24.2
 
   '@atproto/lexicon@0.4.7':
     dependencies:
@@ -1063,14 +1063,14 @@ snapshots:
       '@atproto/syntax': 0.3.3
       iso-datestring-validator: 2.2.2
       multiformats: 9.9.0
-      zod: 3.24.1
+      zod: 3.24.2
 
   '@atproto/syntax@0.3.3': {}
 
   '@atproto/xrpc@0.6.9':
     dependencies:
       '@atproto/lexicon': 0.4.7
-      zod: 3.24.1
+      zod: 3.24.2
 
   '@babel/code-frame@7.26.2':
     dependencies:
@@ -1354,10 +1354,10 @@ snapshots:
 
   chanfana@2.6.3:
     dependencies:
-      '@asteasolutions/zod-to-openapi': 7.3.0(zod@3.24.1)
+      '@asteasolutions/zod-to-openapi': 7.3.0(zod@3.24.2)
       js-yaml: 4.1.0
       openapi3-ts: 4.4.0
-      zod: 3.24.1
+      zod: 3.24.2
 
   color-convert@2.0.1:
     dependencies:
@@ -1929,4 +1929,4 @@ snapshots:
 
   zod@3.22.3: {}
 
-  zod@3.24.1: {}
+  zod@3.24.2: {}
