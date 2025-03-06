@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@atproto/api':
-        specifier: 0.13.24
-        version: 0.13.24
+        specifier: 0.13.25
+        version: 0.13.25
       chanfana:
         specifier: ^2.5.2
         version: 2.5.2
       hono:
-        specifier: 4.6.16
-        version: 4.6.16
+        specifier: 4.7.4
+        version: 4.7.4
       zod:
         specifier: ^3.24.1
         version: 3.24.1
@@ -44,8 +44,8 @@ packages:
     peerDependencies:
       zod: ^3.20.2
 
-  '@atproto/api@0.13.24':
-    resolution: {integrity: sha512-q9GHjaypnEyeag4plsWzP2eWaUfJWy9PHviBsJu5GauwMrGSU/4ijIqWwbFYzyXeWg85ErQxx6FqIne7HDbaVQ==}
+  '@atproto/api@0.13.25':
+    resolution: {integrity: sha512-5tz2NvYO7W9+0PV7x4k4KIAIazQI6Km+q4/+O6VUoNSqHsF3ry9/9mjcZKBoJLdmcVtZdcKSlPUTtxthan6iKw==}
 
   '@atproto/common-web@0.3.1':
     resolution: {integrity: sha512-N7wiTnus5vAr+lT//0y8m/FaHHLJ9LpGuEwkwDAeV3LCiPif4m/FS8x/QOYrx1PdZQwKso95RAPzCGWQBH5j6Q==}
@@ -532,8 +532,8 @@ packages:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
 
-  hono@4.6.16:
-    resolution: {integrity: sha512-iE6xOPwDYlfnZFwk6BfIMMIH4WZm3pPhz6rc1uJM/OPew0pjG5K6p8WTLaMBY1/szF/T0TaEjprMpwn16BA0NQ==}
+  hono@4.7.4:
+    resolution: {integrity: sha512-Pst8FuGqz3L7tFF+u9Pu70eI0xa5S3LPUmrNd5Jm8nTHze9FxLTK9Kaj5g/k4UcwuJSXTP65SyHOPLrffpcAJg==}
     engines: {node: '>=16.9.0'}
 
   html-tags@3.3.1:
@@ -944,7 +944,7 @@ snapshots:
       openapi3-ts: 4.4.0
       zod: 3.24.1
 
-  '@atproto/api@0.13.24':
+  '@atproto/api@0.13.25':
     dependencies:
       '@atproto/common-web': 0.3.1
       '@atproto/lexicon': 0.4.4
@@ -1352,7 +1352,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  hono@4.6.16: {}
+  hono@4.7.4: {}
 
   html-tags@3.3.1: {}
 
