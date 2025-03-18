@@ -28,7 +28,7 @@
 	},
 	"packageManager": "bun@1.2.4",
 	"engines": {
-		"bun": "~1.2.4",
+		"bun": "~1.2.5",
 		"node": "~22.14.0"
 	},
 	"trustedDependencies": []
