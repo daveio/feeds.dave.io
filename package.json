@@ -14,7 +14,7 @@
 		"start": "wrangler dev"
 	},
 	"dependencies": {
-		"@atproto/api": "0.14.16",
+		"@atproto/api": "0.14.19",
 		"chanfana": "2.8.0",
 		"hono": "4.7.5",
 		"zod": "3.24.2"
