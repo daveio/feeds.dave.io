@@ -16,7 +16,7 @@
 	"dependencies": {
 		"@atproto/api": "0.14.22",
 		"chanfana": "2.8.0",
-		"hono": "4.7.6",
+		"hono": "4.7.7",
 		"zod": "3.24.2"
 	},
 	"devDependencies": {
