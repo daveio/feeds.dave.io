@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "feeds-dave-io",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-05-14",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true,
+  },
+  "placement": {
+    "mode": "smart",
+  },
+  "routes": [
+    {
+      "pattern": "feeds.dave.io",
+      "custom_domain": true,
+    },
+    {
+      "pattern": "dave.io/feeds/*",
+      "zone_id": "cce768dd1ffadb4f24ae8fce0f7e979a",
+    },
+  ],
+}
